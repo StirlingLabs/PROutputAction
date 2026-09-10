@@ -1,6 +1,6 @@
 {
   "name": "output",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Outputs markdown content to pull requests",
   "main": "src/index.js",
   "scripts": {
