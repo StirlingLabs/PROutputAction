@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 
+## [4.0.0] - 10.08.2026
+
+### Infrastructure
+- Runtime: `action.yml` now uses `node24`; `.nvmrc `bumped to `v24`
+- Dependency removal: dropped the `glob` package in favour of the built-in `node:fs/promises`
+	- 	With new tests
+- Updated multiple packages and actions
+- Rebuild the action (~7k lines smaller, mostly from dropping glob)
+- Moved `test.yml` to the correct directory `.github/workflows`
+- Changed ownership to @zattoo/chapter-technology-frontend
+
 ## [3.0.1] - 25.07.2025
 
 ## Fixed
