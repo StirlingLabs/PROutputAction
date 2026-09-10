@@ -39,8 +39,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Output
     steps:
-      - uses: actions/checkout@v2
-      - uses: zattoo/output@v1
+      - uses: actions/checkout@v7
+      - uses: zattoo/output@v4
         with:
           token: ${{github.token}}
           sources: 'src/projects/a/, src/projects/b/'
+          name: 'stats'
